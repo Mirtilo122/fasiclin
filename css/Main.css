@@ -173,10 +173,10 @@ header {
   height: 100vh;
   display: flex;
   justify-content: center;
-  padding-top: 5vh;
   width: 4vw;
   position: fixed;
   padding-top: 15vh;
+  padding-left: 1vh;
   
   font-size: 0px;
   font-family: var(--fonte-primaria);
