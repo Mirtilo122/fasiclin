@@ -14,6 +14,7 @@ function Sidebar() {
                     </span>
                 </a>
             </div>
+
             <div class="itens_sidebar">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
@@ -25,6 +26,7 @@ function Sidebar() {
                         </span>
                 </a>
             </div>
+            
             <div class="itens_sidebar">
                 <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">

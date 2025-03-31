@@ -1,0 +1,225 @@
+
+
+:root {
+    --cor-principal: rgba(94, 180, 73, 1);
+    --cor-secundaria:  rgba(233, 233, 233, 1);
+    --cor-terciaria: rgba(62, 62, 62, 1);
+    --cor-quaternária: rgba(175, 175, 175, 1);
+    --fonte-primaria: Inter;
+    --fonte-secundaria: Futura;
+}
+
+.fixo {   
+  width: 100%;
+  display: flex; 
+  flex-direction: column;
+  position: fixed;
+}
+
+body {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  width: 50vw;
+  height: 89vh;
+  z-index: 0;
+  align-self: center;
+  margin-top: 11vh;
+}
+
+h1{
+  font-family: var(--fonte-primaria);
+}
+
+
+
+
+/* Cores */
+
+body{
+  background-color: rgba(217, 217, 217, 1);
+}
+
+header{    
+  background-color: var(--cor-principal);
+}
+
+.sidebar_style{
+  background-color: var(--cor-terciaria);
+}
+
+.nome_pagina {
+  color: var(--cor-secundaria);
+  font-family: var(--fonte-primaria);
+}
+
+.barra{
+  background-color: var(--cor-secundaria);
+}
+
+.logotipo svg{
+  color: var(--cor-secundaria);
+}
+
+.sidebar{
+  background-color: var(--cor-terciaria);
+}
+
+.itens_sidebar:hover{
+  background-color: var(--cor-principal);
+}
+
+.itens_sidebar a{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+
+
+.barra{
+  width: 1px;
+  height: 8vh;
+}
+
+
+
+.logotipo{
+  width: 10vh;
+  height: 10vh;
+}
+
+.logotipo a{    
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logotipo svg{
+  width: 50%;
+  height: 50%;
+}
+
+
+
+.nome_pagina {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 0.9%;
+  padding-left: 2%;
+}
+
+.titulo{
+  font-size: 180%;  
+  font-family: var(--fonte-primaria);
+  font-weight: lighter;
+}
+
+
+
+.usuario{  
+  width: 10vh;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.circle{
+  width: 60%;
+  aspect-ratio: 1 / 1;
+  background-color: white;
+  border-radius: 100%;
+}
+
+/* Fim Header */
+
+
+
+
+
+
+
+
+
+
+/* Sidebar */
+
+.sidebar{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  width: 4vw;
+  
+  font-size: 0px;
+  font-family: var(--fonte-primaria);
+}
+
+.sidebar:hover{
+  width: 10vw;
+  
+  font-size: 13px;
+}
+
+
+.lista_sidebar{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.itens_sidebar{
+    width: 90%;
+    height: 5%;
+    cursor: pointer;  
+    border-radius: 1vh;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+
+.itens_sidebar a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.itens_sidebar svg{
+  width:  25px;
+  height: 25px;
+}
+
