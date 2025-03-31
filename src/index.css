@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@theme {
+    --color-fasiclin: #5EB449;
+    --color-page: #E9E9E9;
+    --color-inputFields: #DCDCDC;
+}
