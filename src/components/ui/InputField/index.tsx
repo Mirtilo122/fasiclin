@@ -12,7 +12,7 @@ function InputField({ label, ref, ...rest }: InputProps) {
 			<input
 				{...rest}
 				ref={ref}
-				className="bg-inputFields rounded-sm border-b-2 p-0.5 focus:outline-none"
+				className="bg-inputFields rounded-sm border-b-2 p-1 focus:outline-none"
 			/>
 		</label>
 	)
